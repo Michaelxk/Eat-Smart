@@ -7,7 +7,6 @@
 		-webkit-font-smoothing: antialiased;
 		-moz-font-smoothing: antialiased;
 		-o-font-smoothing: antialiased;
-		font-smoothing: antialiased;
 		text-rendering: optimizeLegibility;
 	  }
 
@@ -103,7 +102,9 @@ body{
 	background: #262a33;
 	color: #fff;
 	padding: 10px;
-	margin: 5px;	
+	margin: 5px;
+	font-size: 2em;
+	font-weight: 700;
 }
 .info-presentacion h4 {
 	color: #fff;
@@ -137,9 +138,7 @@ body{
 /*---------------------------------------
 --------ESTILOS PARA SLIDE--------------
 ------------------------------------------*/
-.carousel-item{
-	
-}
+
 
 /*---------------------------------------
 --------ESTILOS PARA HEALThY-FOOD--------------
