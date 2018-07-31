@@ -11,8 +11,6 @@
 		text-rendering: optimizeLegibility;
 	  }
 
-
-
 body{
   font-family: 'Open Sans', sans-serif;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -20,12 +18,9 @@ body{
   font-size: 12px;
   line-height: 30px;
 }
-
-
 /*---------------------------------------
 --------SOCIAL NETWORKS-----------------
 ------------------------------------------*/
-
 .sociales{	
   background: #262a33;
   border-bottom: 1px solid black;	
@@ -34,7 +29,6 @@ body{
 .sociales ul{
 	display: flex;
 	justify-content: flex-end;
-
 }
 
 .sociales li{
@@ -47,8 +41,6 @@ body{
 	margin-right: 20px;
 	color: #fff;
 }
-
-
 /*---------------------------------------
 --------LOGO-------
 ------------------------------------------*/
@@ -58,10 +50,10 @@ body{
 /*---------------------------------------
 --------ESTILOS PARA EL NAV-BAR-----------
 ------------------------------------------*/
-
 .navigation{
 	width: 100%;
 }
+
 .nav-bar{
 	background: #85c458;
 	display: flex;
@@ -87,12 +79,9 @@ body{
 	color: #fff;
 	font-size: 1.2em;	
 }
-
-
 /*---------------------------------------
 --------ESTILOS PARA PRESENTACION-----------
 ------------------------------------------*/
-
 .imagen-presentacion{
 	background-image: url('../img/1.jpg');
 	background-repeat: no-repeat;
@@ -122,14 +111,10 @@ body{
 	margin: 5px;
 	background: #262a33;	
 	text-align: center;
-	
 }
-
-
 /*---------------------------------------
 --------ESTILOS PARA PLATOS--------------
 ------------------------------------------*/
-
 .platos h2{
 	display: flex;
   margin-top: 30px;
@@ -148,9 +133,7 @@ body{
 .vector img{
 	max-width: 100%;
 	color: #262a33;
-
 }
-
 /*---------------------------------------
 --------ESTILOS PARA SLIDE--------------
 ------------------------------------------*/
@@ -161,7 +144,6 @@ body{
 /*---------------------------------------
 --------ESTILOS PARA HEALThY-FOOD--------------
 ------------------------------------------*/
-
 .container-eat-smart{ 
 	width: 80%;
 	margin: 0 auto;
@@ -169,7 +151,6 @@ body{
 .container-eat-smart h3{ 
 	text-align: center;
 }
-
 
 .eat-smart{
 	margin-top: 50px;
@@ -183,12 +164,9 @@ body{
 .banner h3{
 	text-align: center;
 }
-
-
 /*---------------------------------------
 --------ESTILOS PARA WELCOME--------------
 ------------------------------------------*/
-
 .welcome{
 	width: 80%;
 	margin: 0 auto;
@@ -200,18 +178,14 @@ body{
 	height: 250px;
 	border-radius: 50%;
 }
-
-
 /*---------------------------------------
 --------ESTILOS PARA CONTACT--------------
 ------------------------------------------*/
-
-
 .contact{
 	background: #43A047;
 }
   
-  .container-contact {
+.container-contact {
 	 
 	max-width: 400px;
 	width: 100%;
