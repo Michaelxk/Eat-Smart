@@ -103,27 +103,33 @@ body{
 	z-index: 2;
 }
 
-.info-presentacion{
-    
-    margin-top: 200px;
+.info-presentacion{	
+  margin-top: 150px;
 	position: absolute;
 	z-index: 10;  
 }
 
+.info{
+    
+}
+
 .info-presentacion h2 {
-	background: #262a33;
 	color: #fff;
 	padding: 10px;
 	margin: 5px;	
-}
-.info-presentacion h4 {
-	color: #fff;
-	padding: 10px;
-	margin: 5px;
-	background: #262a33;	
 	text-align: center;
 	
 }
+/*---------------------------------------
+--------ESTILOS PARA MAIN--------------
+------------------------------------------*/
+main{
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
 
 
 /*---------------------------------------
