@@ -41,12 +41,6 @@ body{
 	color: #fff;
 }
 /*---------------------------------------
---------LOGO-------
-------------------------------------------*/
-
-
-
-/*---------------------------------------
 --------ESTILOS PARA EL NAV-BAR-----------
 ------------------------------------------*/
 .navigation{
@@ -135,32 +129,23 @@ main{
 =======
 >>>>>>> 569fa1e65a38d251e5140628f17a21ae99d6590c
 /*---------------------------------------
---------ESTILOS PARA PLATOS--------------
-------------------------------------------*/
+--------ESTILOS PARA PLATOS--------------*/
+.platos{
+	margin-bottom: 25px;
+}
+
 .platos h2{
+	margin-top: 25px;
+	margin-bottom: 25px;
+  text-align: center;
+}
+
+.card img{
 	display: flex;
   margin-top: 30px;
   margin-bottom: 20px;
-  justify-content: center;
+  height: 200px;
 }
-.vector{
-	display: flex;
-	justify-content: center;
-	margin: 0 auto;
-	height: 250px;
-	margin-top: -110px;
-	margin-bottom: -60px;
-}
-
-.vector img{
-	max-width: 100%;
-	color: #262a33;
-}
-/*---------------------------------------
---------ESTILOS PARA SLIDE--------------
-------------------------------------------*/
-
-
 /*---------------------------------------
 --------ESTILOS PARA HEALThY-FOOD--------------
 ------------------------------------------*/
@@ -187,6 +172,11 @@ main{
 /*---------------------------------------
 --------ESTILOS PARA WELCOME--------------
 ------------------------------------------*/
+
+.welcome-line{
+	box-shadow: 2px 2px 10px #666;
+}
+
 .welcome{
 	width: 80%;
 	margin: 0 auto;
@@ -198,6 +188,15 @@ main{
 	height: 250px;
 	border-radius: 50%;
 }
+
+/*---------------------------------------
+--------ESTILOS PARA CONTACT--------------
+------------------------------------------*/
+
+.eat-smart{
+	margin-bottom: 25px;
+}
+
 /*---------------------------------------
 --------ESTILOS PARA CONTACT--------------
 ------------------------------------------*/
