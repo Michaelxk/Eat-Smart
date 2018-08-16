@@ -7,11 +7,8 @@
 		-webkit-font-smoothing: antialiased;
 		-moz-font-smoothing: antialiased;
 		-o-font-smoothing: antialiased;
-		font-smoothing: antialiased;
 		text-rendering: optimizeLegibility;
 	  }
-
-
 
 body{
   font-family: 'Open Sans', sans-serif;
@@ -20,12 +17,9 @@ body{
   font-size: 12px;
   line-height: 30px;
 }
-
-
 /*---------------------------------------
 --------SOCIAL NETWORKS-----------------
 ------------------------------------------*/
-
 .sociales{	
   background: #262a33;
   border-bottom: 1px solid black;	
@@ -34,7 +28,6 @@ body{
 .sociales ul{
 	display: flex;
 	justify-content: flex-end;
-
 }
 
 .sociales li{
@@ -47,8 +40,6 @@ body{
 	margin-right: 20px;
 	color: #fff;
 }
-
-
 /*---------------------------------------
 --------LOGO-------
 ------------------------------------------*/
@@ -58,10 +49,10 @@ body{
 /*---------------------------------------
 --------ESTILOS PARA EL NAV-BAR-----------
 ------------------------------------------*/
-
 .navigation{
 	width: 100%;
 }
+
 .nav-bar{
 	background: #85c458;
 	display: flex;
@@ -87,12 +78,9 @@ body{
 	color: #fff;
 	font-size: 1.2em;	
 }
-
-
 /*---------------------------------------
 --------ESTILOS PARA PRESENTACION-----------
 ------------------------------------------*/
-
 .imagen-presentacion{
 	background-image: url('../img/1.jpg');
 	background-repeat: no-repeat;
@@ -116,10 +104,22 @@ body{
 .info-presentacion h2 {
 	color: #fff;
 	padding: 10px;
+<<<<<<< HEAD
 	margin: 5px;	
-	text-align: center;
-	
+=======
+	margin: 5px;
+	font-size: 2em;
+	font-weight: 700;
 }
+.info-presentacion h4 {
+	color: #fff;
+	padding: 10px;
+	margin: 5px;
+	background: #262a33;	
+>>>>>>> 569fa1e65a38d251e5140628f17a21ae99d6590c
+	text-align: center;
+}
+<<<<<<< HEAD
 /*---------------------------------------
 --------ESTILOS PARA MAIN--------------
 ------------------------------------------*/
@@ -132,10 +132,11 @@ main{
 
 
 
+=======
+>>>>>>> 569fa1e65a38d251e5140628f17a21ae99d6590c
 /*---------------------------------------
 --------ESTILOS PARA PLATOS--------------
 ------------------------------------------*/
-
 .platos h2{
 	display: flex;
   margin-top: 30px;
@@ -154,20 +155,15 @@ main{
 .vector img{
 	max-width: 100%;
 	color: #262a33;
-
 }
-
 /*---------------------------------------
 --------ESTILOS PARA SLIDE--------------
 ------------------------------------------*/
-.carousel-item{
-	
-}
+
 
 /*---------------------------------------
 --------ESTILOS PARA HEALThY-FOOD--------------
 ------------------------------------------*/
-
 .container-eat-smart{ 
 	width: 80%;
 	margin: 0 auto;
@@ -175,7 +171,6 @@ main{
 .container-eat-smart h3{ 
 	text-align: center;
 }
-
 
 .eat-smart{
 	margin-top: 50px;
@@ -189,12 +184,9 @@ main{
 .banner h3{
 	text-align: center;
 }
-
-
 /*---------------------------------------
 --------ESTILOS PARA WELCOME--------------
 ------------------------------------------*/
-
 .welcome{
 	width: 80%;
 	margin: 0 auto;
@@ -206,18 +198,14 @@ main{
 	height: 250px;
 	border-radius: 50%;
 }
-
-
 /*---------------------------------------
 --------ESTILOS PARA CONTACT--------------
 ------------------------------------------*/
-
-
 .contact{
 	background: #43A047;
 }
   
-  .container-contact {
+.container-contact {
 	 
 	max-width: 400px;
 	width: 100%;
