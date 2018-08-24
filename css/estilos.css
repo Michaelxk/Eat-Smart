@@ -98,9 +98,6 @@ body{
 .info-presentacion h2 {
 	color: #fff;
 	padding: 10px;
-<<<<<<< HEAD
-	margin: 5px;	
-=======
 	margin: 5px;
 	font-size: 2em;
 	font-weight: 700;
@@ -110,28 +107,14 @@ body{
 	padding: 10px;
 	margin: 5px;
 	background: #262a33;	
->>>>>>> 569fa1e65a38d251e5140628f17a21ae99d6590c
 	text-align: center;
 }
-<<<<<<< HEAD
-/*---------------------------------------
---------ESTILOS PARA MAIN--------------
-------------------------------------------*/
-main{
-	width: 80%;
-	margin: 0 auto;
-}
-
-
-
-
-
-=======
->>>>>>> 569fa1e65a38d251e5140628f17a21ae99d6590c
 /*---------------------------------------
 --------ESTILOS PARA PLATOS--------------*/
 .platos{
 	margin-bottom: 25px;
+	width: 90%;
+	margin: 0 auto;
 }
 
 .platos h2{
@@ -140,18 +123,37 @@ main{
   text-align: center;
 }
 
+.card{
+	box-sizing: border-box;
+}
 .card img{
 	display: flex;
   margin-top: 30px;
   margin-bottom: 20px;
   height: 200px;
 }
+
+/*---------------------------------------
+--------ESTILOS PARA CARRUSEL--------------
+------------------------------------------*/
+
+.carrusel {
+	overflow: hidden;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin: 0 auto;
+	width: 92%;
+	height: 300px;
+}
+
 /*---------------------------------------
 --------ESTILOS PARA HEALThY-FOOD--------------
 ------------------------------------------*/
 .container-eat-smart{ 
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
+	margin-bottom: 25px;
+
 }
 .container-eat-smart h3{ 
 	text-align: center;
