@@ -109,6 +109,40 @@ body{
 	background: #262a33;	
 	text-align: center;
 }
+
+/*---------------------------------------
+--------ESTILOS PARA WELCOME--------------
+------------------------------------------*/
+
+.welcome-line{
+	box-shadow: 2px 2px 10px #666;
+}
+
+.welcome{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.welcome img{
+	width: 400px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+article h4 ul {
+	margin-top: 50px;
+}
+
+article h4{
+	margin-bottom: 25px;
+}
+
+.article-image img{
+	width: 250px;
+	height: 250px;
+}
+
 /*---------------------------------------
 --------ESTILOS PARA PLATOS--------------*/
 .platos{
@@ -131,6 +165,28 @@ body{
   margin-top: 30px;
   margin-bottom: 20px;
   height: 200px;
+}
+
+/*---------------------------------------
+--------ESTILOS PARA tips--------------
+------------------------------------------*/
+
+
+.Tips {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.Tips h2{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.Tips img {
+	width: 400px;
+	height: 200px;;
+	margin-bottom: 25px;
 }
 
 /*---------------------------------------
@@ -170,25 +226,6 @@ body{
 
 .banner h3{
 	text-align: center;
-}
-/*---------------------------------------
---------ESTILOS PARA WELCOME--------------
-------------------------------------------*/
-
-.welcome-line{
-	box-shadow: 2px 2px 10px #666;
-}
-
-.welcome{
-	width: 80%;
-	margin: 0 auto;
-	margin-top: 30px;
-}
-
-.welcome img{
-	width: 400px;
-	height: 250px;
-	border-radius: 50%;
 }
 
 /*---------------------------------------
