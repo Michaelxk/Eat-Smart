@@ -5,15 +5,15 @@
    ========================================================================== */
 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
--webkit-font-smoothing: antialiased;
--moz-font-smoothing: antialiased;
--o-font-smoothing: antialiased;
-text-rendering: optimizeLegibility;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 
 body{
@@ -24,15 +24,11 @@ body{
 	line-height:1.6em;
 }
 
-
-
 .jumbotron {
 	background-image: url('../img/1.jpg');
 	background-size: cover;
-}
-.info-presentacion{	
-  margin-top: 150px;
-
+	max-width: 100%;
+	width: 100vw;
 }
 
 .info-presentacion h2 {
@@ -41,14 +37,14 @@ body{
 	margin: 5px;
 	font-size: 2.75em;
 	font-weight: 700;
-	background: #262a33;	
+	background:rgb(38, 42, 51, 0.4)	
 }
 
 .info-presentacion h4 {
 	color: #fff;
 	padding: 10px;
 	margin: 5px;
-	background: #262a33;	
+	background: rgb(38, 42, 51, 0.4)		
 }
 
 .eat-smart{
@@ -60,7 +56,6 @@ body{
 	background: cover;
 
 }
-
 .banner h3{
 	text-align: center;
 	background: #212529;
