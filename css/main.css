@@ -44,10 +44,11 @@ body{
   }
 
 .jumbotron {
-	background-image: url('../img/1.jpg');
+	background-image: url('../img/home-bg.jpg');
 	background-size: cover;
 	max-width: 100%;
 	width: 100vw;
+	height: 18rem;
 }
 
 .info-presentacion h2 {
@@ -115,7 +116,6 @@ body{
 	margin: 0 auto;
 	margin-top: 60px;
 	margin-bottom: 60px;
-	border-bottom: 30px;
 }
 
 .welcome img{
