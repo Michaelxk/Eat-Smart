@@ -10,67 +10,104 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/fontello.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-
-           
-
-  
 </head>
-  <body>
+  <body id="body">
   <!--[if lt IE 8]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
+
+
+  
   <div class="row">
     <div class="col-12">
       <div class="sociales">
         <ul>
           <li><a href="#"><i class="icon-facebook"></i></a></li>-
-          <li><a href="#"><i class="icon-twitter"></i></a></li>-
-          <li><a href="#"><i class="icon-phone"></i>+829-867-6614</a></li>
+          <li><a href="#"><i class="icon-tweeter"></i></a></li>-
+          <li><a href="#"><i class="icon-instagram"></i></a></li>-
         </ul>
       </div>
     </div>
   </div>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background: #c3d34e">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #c3d34e;">
+    <div class="container">
+          <a class="navbar-brand" href="#home">Smart-Food</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Best Choise</a>
-          <a class="nav-item nav-link" href="#">Contact</a>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#recipes">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
         <div class="info-presentacion">
-					<h2 class="animated fadeInLeft text-center">Healty Food Tips</h2>
-					<h4 class="animated fadeInLeft text-center">!Be Smart - Eat Smart!</h4>
+          <div class="row">
+            <div class="col-lg-6 info">
+                <h2 class="animated fadeInLeft text-center">Healty Food</h2>
+                <h4 class="animated fadeInLeft text-center">!Be Smart - Eat Smart!</h4>
+            </div>
+          </div>
+         
 				</div>
       </div>
+       
     </div>
+    <div class="container headings">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4 animated fadeInLeft">
+          <h2 class="text-center"><i class="icon-food"></i></h2>
+          <h2 class="text-center">Heading</h2>
+          <p class="text-center">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        </div>
+        <div class="col-md-4 animated fadeInUp">
+          <h2 class="text-center"><i class="icon-food-1"></i></h2>
+          <h2 class="text-center">Heading</h2>
+          <p class="text-center">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+       </div>
+        <div class="col-md-4 animated fadeInRight">
+          <h2 class="text-center"><i class="icon-fast-food"></i></h2>
+          <h2 class="text-center">Heading</h2>
+          <p class="text-center">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div>
+      </div>
+    </div> 
+
+   
+   
+
   
-    <section class="welcome" id="">
+    <section class="welcome">
       <hr class="welcome-line">
       <div class="row">
-       <div class="col-lg-8">
+       <div class="col-lg-8" data-aos="fade-right">
          <article>
-           <h4>Welcome Tips</h4>
-            <img src="img/cheff.jpg"  alt="" class="rounded">
-            <p>Healthy eating is not about strict dietary limitations, staying unrealistically thin, or depriving yourself of the foods you love. Rather, it’s about feeling great, having more energy, improving your health, and boosting your mood. 
-              using these simple tips, you can cut through the confusion and learn how to create—and stick to—a tasty, varied, and nutritious diet that is as good for your mind as it is for your body.</p>
-             <button id="welcome-btn">Read more</button>
+           <h4>WELCOME TIPS</h4>
+            <img src="./img/welcome-banner.png"  alt="" class="rounded">
+            <p class="welcome-paragraph">Healthy eating is not about strict dietary limitations, staying unrealistically thin, or depriving yourself of the foods you love. Rather, it’s about feeling great, having more energy, improving your health, and boosting your mood. 
+              using these simple tips, you can cut through the confusion and learn how to create—and stick to—a tasty, varied, and nutritious diet that is as good for your mind as it is for your body.</p>            
          </article>
        </div>
-       <div class="tips col-lg-4 animated fadeInUp">
+       <div class="tips col-lg-4" data-aos="fade-left">
          <article>
            <h4>7 tips for healthy eating</h4>
              <ul>
@@ -84,137 +121,326 @@
              </ul>
          </article>
            <div class="article-image">
-             <img src="img/healthy-food-choice-symbol-represented-foods-shape-heart-to-show-health-concept-eating-well-fruits-35865083.jpg" alt="">
+             <img src="img/Healthy-Food-Vegetables-Heart-PNG.png" alt="">
            </div>
        </div>
      </div>
-     <hr class="welcome-line">
    </section>
-   <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4 animated fadeInLeft">
-          <h2><i class="icon-food"></i></h2>
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4 animated fadeInUp">
-          <h2><i class="icon-food-1"></i></h2>
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4 animated fadeInRight">
-          <h2><i class="icon-fast-food"></i></h2>
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      </div>
-    </div> 
-   <section class="eat-smart">
-    <div class="container-eat-smart">
-      <div class="shadow p-3 mb-5 bg-white rounded row">
-        <div class="banner col-sm col-md-12 col-lg-6">
-          <h3>BE SMART</h3>
-        </div>
-        <div class="col-sm col-md-12 col-lg-6">
-          <h3>EAT SMART</h3>
-            <p>Your food choices each day affect your health — how you feel today, tomorrow, and in the future. Good nutrition is an important part of leading a healthy lifestyle. Take a small step to better nutrition today, and move toward a healthier you.</p>  
-            <p>Everyone can benefit from eating healthy—from controlling your weight to preventing chronic diseases, like heart disease and cancer. Eating healthy at a young age sets kids on the path to a healthy life, but remember, it’s never too late to get started.</p>
-        </div>
-      </div>
-    </div>     
-  </section>
 
+   <div>
+      <img class="d-block w-100" src="img/banner1.png" data-aos="zoom-in">
+    </div>
 
-     <div>
-   <img class="d-block w-100" src="img/banner1.png">
- </div>  
+    <section class="eat-smart">
+      <div class="container-eat-smart">
+        <h3 class="eat-smart-heading">BE SMART</h3>
+        <div class="shadow p-3 mb-5 bg-white rounded row">
+          <div class="banner col-sm col-md-12 col-lg-6">
+          </div>
+          <div class="col-sm col-md-12 col-lg-6">
+            <h3>EAT SMART</h3>
+              <p>Your food choices each day affect your health — how you feel today, tomorrow, and in the future. Good nutrition is an important part of leading a healthy lifestyle. Take a small step to better nutrition today, and move toward a healthier you.</p>  
+              <p>Everyone can benefit from eating healthy—from controlling your weight to preventing chronic diseases, like heart disease and cancer. Eating healthy at a young age sets kids on the path to a healthy life, but remember, it’s never too late to get started.</p>
+          </div>
+        </div>
+      </div>    
+    </section>
  
- <section class="gallery-block cards-gallery" id="BEST-CHOISE">
-  <div class="container">
-    <div class="heading">
-      <h2>Best Choise for Bsreakfast</h2>
-    </div>
-    <div class="row">
-      <div class="col-md-6 col-lg-4">
-        <div class="card border-0 transform-on-hover">
-          <a class="lightbox" href="img/42503-healthy-food-1200.jpg">
-            <img src="img/42503-healthy-food-1200.jpg" alt="Card Image" class="card-img-top">
-          </a>
-          <div class="card-body">
-            <h6><a href="#">Lorem Ipsum</a></h6>
-            <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
-          </div>
+
+    <section class="gallery-block cards-gallery" id="BEST-CHOISE">
+      <div class="container" id="recipes">
+        <div class="row">
+            <div class="col-lg-6 best-choice-description">
+                <div class="heading">
+                    <h2>For Lunch</h2>
+                    <h3 id="first-h2">Best Recomendation of the day</h3>
+                    <h6>ads;lfkajsdfl;kajsdfl;aksjdfa;lskfdjals;kfjsa
+                      as;dflkajsfl;dkasjfl;kajsfl;aksjfl;akjsdal;jk
+                    </h6>
+                    <button>ads;lfkasjdflk</button>
+                  </div>
+            </div>
+            <div class="col-lg6">
+                <div class="wrapper">
+                    <div class="img"></div>
+                    <div class="title">
+                      <h4>Pan Seared Salmon with Capers</h4>
+                    </div>
+                  <ul class="tab">
+                    <li><a href="javascript:void(0)" class="tablinks" onclick="salmon(event, 'ingredients')">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 50 50" style="enable-background:new 0 0 25 50; width: 50px; height: 50px;" xml:space="preserve">
+                        <style type="text/css">
+                  .st0{fill:#000000;}
+                </style>
+                        <g>
+                          <path class="st0" d="M24.6,12.2c1.5,0,2.9,0,4.4,0c0.7,0.3,1.3,0.6,1.4,1.4c0.1,0.6,0,1.3,0,1.9c0,0.2,0,0.4,0.1,0.6c1.6,1.9,2.1,4.1,1.8,6.5
+                    c0,0.1,0.1,0.3,0.2,0.4c1,0.6,2.1,1.4,3.4,1.1c0,0,0,0,0,0c0.5,0,0.9,0.4,0.9,0.9c0,0.9,0,1.8,0,2.7c0,0.6-0.4,0.9-0.9,0.9
+                    c-0.3,0-0.5,0-0.8,0c-0.2,0.7-0.3,1.3-0.5,1.9c-0.5,1.5-1,2.9-1.5,4.4c-0.3,0.9-0.5,1-1.4,1c-4.6,0-9.2,0-13.8,0
+                    c-0.5,0-0.9-0.2-1.1-0.6c-0.1-0.2-0.2-0.4-0.3-0.7c-0.6-2-1.5-3.9-1.8-6c-0.7,0-1.4,0.1-1.8-0.7c0-1.1,0-2.2,0-3.3
+                    c0.3-0.5,0.7-0.7,1.3-0.6c0.5,0,0.9,0,1.4,0c0-0.1,0-0.2,0-0.3c0.2-2.8,2.4-5.2,5.4-5.2c0.2,0,0.3-0.1,0.4-0.3
+                    c0.4-0.8,0.8-1.5,1.3-2.2c0.2-0.3,0.3-0.5,0.3-0.8C23,13.9,23,12.8,24.6,12.2z M30.5,21.9c0-0.6,0.1-1,0-1.5
+                    c-0.2-1.5-0.8-2.9-2.2-3.7c-0.6-0.3-0.7-1.3,0-1.5c0.6-0.2,0.5-0.6,0.4-1c-1.2,0-2.4,0-3.6,0c-0.1,0.5-0.1,0.8,0.4,1.1
+                    c0.2,0.1,0.4,0.5,0.4,0.8c0,0.4-0.3,0.7-0.6,0.8c-1.1,0.4-1.5,1.3-1.8,2.2c0.6,0.4,1.2,0.8,1.8,1.2c0.6-0.8,1.3-0.6,2-0.1
+                    C28.2,20.7,29.3,21.2,30.5,21.9z M17.7,24.1c0.7,0,1.4-0.1,2.1,0c0.8,0.1,1.4-0.2,1.9-0.8c0.6-0.7,1.3-1.3,2-1.9
+                    c-0.9-1-2.5-1.3-3.8-0.7C18.6,21.2,17.7,22.6,17.7,24.1z M24,30.5c0,0.6,0,1.1,0,1.7c0,0.7,0.4,1,0.9,1c0.6,0,0.9-0.4,0.9-1.1
+                    c0-1.1,0-2.2,0-3.3c0-0.7-0.4-1.1-0.9-1.1c-0.6,0-0.9,0.4-0.9,1.1C24,29.4,24,29.9,24,30.5z M20.4,30.5c0,0.6,0,1.1,0,1.7
+                    c0,0,0,0.1,0,0.1c0,0.6,0.4,1,0.9,1c0.5,0,0.9-0.4,0.9-1c0-1.2,0-2.4,0-3.5c0-0.6-0.4-1-0.9-1c-0.5,0-0.9,0.4-0.9,1
+                    C20.4,29.3,20.4,29.9,20.4,30.5z M29.5,30.5c0-0.5,0-1.1,0-1.6c0,0,0-0.1,0-0.1c0-0.6-0.4-1-0.9-1c-0.5,0-0.9,0.4-0.9,1
+                    c0,1.2,0,2.3,0,3.5c0,0.6,0.4,1,0.9,1c0.5,0,0.9-0.4,0.9-1C29.5,31.6,29.5,31.1,29.5,30.5z M30.5,24.1C30.5,24.1,30.5,24,30.5,24.1
+                    c-1.3-0.8-2.7-1.6-4-2.4c-0.1,0-0.3-0.1-0.3,0c-0.8,0.8-1.6,1.5-2.5,2.4C26,24.1,28.2,24.1,30.5,24.1z"/>
+                        </g>
+                      </svg>
+                      </a></li>
+                    <li><a href="javascript:void(0)" class="tablinks" onclick="salmon(event, 'directions')">
+                      <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 50 50" style="enable-background:new 0 0 50 50; width: 50px; height: 50px;" xml:space="preserve">
+                        <style type="text/css">
+                  .st0{fill:#000000;}
+                </style>
+                        <g>
+                          <path class="st0" d="M13.4,26.9c-0.8-0.3-1.5-0.5-2.2-0.8c-1-0.4-1.5-1.2-1.2-2c0.3-0.8,1.2-1.1,2.2-0.8c1.2,0.3,1.3,0.5,1,1.8
+                    c-0.5-0.2-1.1-0.3-1.6-0.5c0,0.1,0,0.1-0.1,0.2c0.7,0.3,1.4,0.5,2.4,0.9c-0.1-0.9-0.2-1.6-0.3-2.3c0-0.2-0.3-0.3-0.5-0.4
+                    c-0.2-0.2-0.3-0.4-0.5-0.6c0.2-0.2,0.5-0.4,0.7-0.5c0.2-0.1,0.4,0,0.6,0c7.6,0,15.1,0,22.7,0c0.2,0,0.5,0,0.7,0
+                    c0.2,0.1,0.4,0.3,0.4,0.4c0,0.2-0.2,0.5-0.3,0.6c-1.3,0.2-0.9,1.2-1,2c0,0.2,0,0.4,0.1,0.8c0.7-0.3,1.4-0.5,2.1-0.8
+                    c0-0.1,0-0.1,0-0.2c-0.5,0.1-1,0.3-1.5,0.4c-0.5-0.8-0.3-1.3,0.6-1.6c0.2-0.1,0.5-0.1,0.7-0.2c0.9-0.1,1.6,0.3,1.9,1
+                    c0.2,0.7-0.2,1.4-1.1,1.8c-0.7,0.3-1.4,0.5-2.2,0.8c0.2,0.7,0.4,1.4,0.6,2.1c0.9,3,0.2,5-2.4,6.8c-0.3,0.2-0.7,0.3-1,0.3
+                    c-5.9,0-11.8,0-17.8,0c-0.3,0-0.7-0.1-1-0.3C12.6,34,11.9,32,12.7,29C12.9,28.3,13.1,27.7,13.4,26.9z M16,23.4c0.3,2-0.5,3.9-1,5.9
+                    c-0.5,1.9,0.1,3.5,1.5,4.8c0.5,0.5,1,0.5,1.7,0.3c-0.4-0.3-0.6-0.6-0.9-0.8c-1.2-1.2-1.5-2.6-1.1-4.3c0.2-0.7,0.4-1.3,0.5-2
+                    c0.1-1.1,0.2-2.3,0.2-3.5C16.9,23.4,16.6,23.2,16,23.4z"/>
+                          <path class="st0" d="M36.6,21.1c-7.7,0-15.4,0-23.1,0c0.3-1.2,1-2,1.9-2.7c1.6-1.2,3.4-1.7,5.3-2.1c0.9-0.2,1.8-0.4,2.8-0.6
+                    c-0.2-0.6-0.4-1-0.5-1.4c-0.3-0.8-0.1-1.4,0.8-1.7c1.1-0.5,2.2-0.5,3.3,0c0.8,0.4,1.1,1,0.8,1.8c-0.1,0.4-0.3,0.8-0.5,1.3
+                    c0.8,0.2,1.5,0.4,2.2,0.6c2,0.4,4,1,5.6,2.3C35.7,19.2,36.4,19.9,36.6,21.1z M21.6,17c-1.9-0.1-5.4,1.6-6,3.1
+                    c0.7,0.2,1.1-0.1,1.6-0.6c0.5-0.6,1.2-1,1.8-1.4C19.9,17.7,20.8,17.4,21.6,17z"/>
+                        </g>
+                      </svg>
+                      </a></li>
+                    <li><a href="javascript:void(0)" class="tablinks" onclick="salmon(event, 'time')">
+                      <svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 50 50" style="enable-background:new 0 0 50 50; width: 50px; height: 50px;" xml:space="preserve">
+                        <style type="text/css">
+                  .st0{fill:#000000;}
+                </style>
+                        <g>
+                          <path d="M25,12.2c6.6,0,12,5.4,12,12c0,6.6-5.4,12-12,12c-6.6,0-12-5.4-12-12C13,17.6,18.4,12.2,25,12.2z M29.4,15.8
+                    c-1.2-0.6-2.4-1-3.8-1.1c0,0.4,0,0.7,0,1.1c0,0.5-0.2,0.8-0.6,0.8c-0.4,0-0.6-0.3-0.6-0.8c0-0.4,0-0.7,0-1.1
+                    c-1.4,0.1-2.6,0.4-3.8,1.1c0.2,0.3,0.4,0.6,0.5,0.9c0,0.1,0,0.3-0.1,0.4c-0.1,0.1-0.3,0-0.4,0c-0.1,0-0.1-0.2-0.2-0.3
+                    c-0.1-0.2-0.3-0.4-0.4-0.6c-1.1,0.7-2.1,1.6-2.8,2.7c0.3,0.2,0.7,0.4,1,0.6c0.4,0.2,0.5,0.6,0.3,0.9c-0.2,0.3-0.5,0.4-0.9,0.2
+                    c-0.3-0.2-0.7-0.4-1-0.6c-0.6,1.2-0.9,2.5-1,3.8c0.3,0,0.6,0,0.9,0c0.2,0,0.4,0.1,0.4,0.3c0,0.3-0.2,0.4-0.5,0.4
+                    c-0.3,0-0.6,0-0.9,0c0.1,1.4,0.4,2.6,1,3.8c0.2-0.1,0.3-0.2,0.5-0.3c0.2-0.1,0.3-0.2,0.5-0.3c0.4-0.2,0.8-0.2,1,0.2
+                    c0.2,0.3,0.1,0.7-0.3,0.9c-0.3,0.2-0.6,0.4-1,0.6c0.8,1.1,1.7,2,2.9,2.8c0.1-0.3,0.3-0.5,0.4-0.7c0.1-0.2,0.3-0.4,0.6-0.3
+                    c0.3,0.1,0.2,0.4,0,0.6c-0.1,0.2-0.3,0.5-0.4,0.8c1.2,0.6,2.4,1,3.7,1.1c0,0,0-0.1,0-0.1c0-0.3,0-0.7,0-1c0-0.5,0.2-0.8,0.6-0.8
+                    c0.4,0,0.6,0.3,0.6,0.8c0,0.4,0,0.7,0,1.1c1.4-0.1,2.6-0.5,3.8-1.1c-0.2-0.3-0.4-0.6-0.5-0.9c0-0.1,0-0.3,0.1-0.4
+                    c0.1-0.1,0.3,0,0.4,0c0.1,0,0.1,0.2,0.2,0.3c0.1,0.2,0.3,0.4,0.4,0.6c1.1-0.7,2.1-1.6,2.8-2.7c-0.3-0.2-0.6-0.4-0.9-0.5
+                    c-0.4-0.2-0.5-0.6-0.3-0.9c0.2-0.3,0.6-0.4,1-0.2c0.3,0.2,0.6,0.4,0.9,0.5c0.6-1.2,0.9-2.5,1-3.9c-0.3,0-0.6,0-0.9,0
+                    c-0.3,0-0.5-0.1-0.5-0.3c0-0.3,0.2-0.4,0.5-0.3c0.3,0,0.6,0,0.9,0c-0.1-1.4-0.4-2.6-1-3.8c-0.3,0.2-0.6,0.4-1,0.5
+                    c-0.4,0.2-0.8,0.2-1-0.2c-0.2-0.3-0.1-0.7,0.3-0.9c0.3-0.2,0.6-0.4,1-0.6c-0.8-1.1-1.7-2-2.8-2.8c-0.1,0.3-0.3,0.5-0.4,0.8
+                    c-0.1,0.2-0.3,0.4-0.5,0.2c-0.2-0.1-0.2-0.3-0.1-0.5C29.1,16.3,29.3,16.1,29.4,15.8z"/>
+                          <path d="M25,25.5c-0.5,0-1-0.3-1.2-0.8c-0.1-0.1-0.2-0.3-0.3-0.4c-1.2-0.7-2.5-1.4-3.7-2.1c-0.3-0.2-0.5-0.3-0.5-0.7
+                    c-0.1-0.6,0.5-1,1-0.8c0.1,0,0.2,0.1,0.4,0.2c1.2,0.7,2.4,1.3,3.6,2c0.1,0.1,0.3,0.1,0.5,0.1c0.2,0,0.5,0,0.7,0
+                    c0.2,0,0.3,0,0.5-0.1c1.2-0.7,2.4-1.4,3.7-2c0.2-0.1,0.3-0.2,0.5-0.2c0.4,0,0.7,0.2,0.8,0.6c0.1,0.3,0,0.7-0.4,0.9
+                    c-0.7,0.4-1.4,0.8-2.1,1.1c-0.6,0.3-1.2,0.7-1.8,1c-0.1,0.1-0.2,0.2-0.3,0.4C26.1,25.2,25.6,25.5,25,25.5z"/>
+                        </g>
+                      </svg>
+                      </a></li>
+                    <li><a href="javascript:void(0)" class="tablinks" onclick="salmon(event, 'serving')">
+                      <svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 50 50" style="enable-background:new 0 0 50 50; width: 50px; height: 50px;" xml:space="preserve">
+                        <style type="text/css">
+                  .st0{fill:#000000;}
+                </style>
+                        <g>
+                          <path d="M24.2,12.2c0.5,0,1.1,0,1.6,0c0.4,0.1,0.8,0.1,1.1,0.2c3.3,0.6,5.9,2.2,7.8,4.9c0.3,0.4,0.2,0.6-0.2,0.9
+                    c-3.1,1.8-6.1,3.5-9.2,5.3c-0.3,0.1-0.5,0.2-0.8,0.2c-3,0-6,0-9,0c-0.6,0-1.3,0-1.9,0c-0.4,0-0.6-0.2-0.5-0.5
+                    c0.2-2,0.8-3.9,1.9-5.6c1.9-2.8,4.5-4.5,7.8-5.1C23.3,12.3,23.7,12.3,24.2,12.2z"/>
+                          <path d="M36.9,24.5c-0.1,3.1-1.3,5.8-3.6,8.1c-0.3,0.3-0.5,0.3-0.8,0c-2.2-2.6-4.4-5.3-6.6-7.9c-0.3-0.3-0.2-0.6,0.1-0.8
+                    c3-1.7,5.9-3.4,8.9-5.1c0.4-0.2,0.6-0.1,0.8,0.3C36.5,20.7,36.9,22.5,36.9,24.5z"/>
+                          <path d="M18.7,24.4c1.7,0,3.3,0,5,0c0.5,0,0.7,0.3,0.5,0.8c-1.2,3.1-2.3,6.3-3.4,9.4c-0.1,0.4-0.4,0.5-0.8,0.3
+                    c-3.6-1.8-5.8-4.6-6.7-8.5c-0.1-0.4-0.1-0.9-0.2-1.4c0-0.4,0.1-0.6,0.6-0.6C15.3,24.4,17,24.4,18.7,24.4z"/>
+                          <path d="M25,36c-1.1,0-2.1-0.2-3.2-0.4c-0.4-0.1-0.5-0.3-0.4-0.8c1.1-3,2.2-6.1,3.3-9.1c0.2-0.5,0.6-0.6,0.9-0.2
+                    c1.6,2,3.3,3.9,4.9,5.9c0.4,0.5,0.9,1.1,1.3,1.6c0.3,0.3,0.2,0.6-0.1,0.8c-1.8,1.2-3.7,2-5.9,2.1C25.6,36,25.3,36,25,36z"/>
+                        </g>
+                      </svg>
+                      </a></li>
+                    <li><a href="javascript:void(0)" class="tablinks" onclick="salmon(event, 'nutrition')">
+                      <svg version="1.1" id="Layer_5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 50 50" style="enable-background:new 0 0 50 50; width: 50px; height: 50px;" xml:space="preserve">
+                        <style type="text/css">
+                  .st0{fill:#000000;}
+                </style>
+                        <g>
+                          <path d="M28.3,36c-2.2,0-4.4,0-6.6,0c0-0.6,0-1.2,0-1.7c0-7,0-14,0-20.9c0-0.1,0-0.2,0-0.3c0-0.5,0.3-0.8,0.8-0.8
+                    c1.7,0,3.4,0,5.1,0c0.5,0,0.8,0.3,0.8,0.9c0,1.6,0,3.3,0,4.9c0,5.9,0,11.7,0,17.6C28.3,35.7,28.3,35.8,28.3,36z"/>
+                          <path d="M37.1,36c-0.1,0-0.2,0-0.3,0c-2,0-4,0-6,0c-0.3,0-0.4-0.1-0.4-0.4c0-4.6,0-9.2,0-13.9c0-0.7,0.3-1,0.9-1c1.6,0,3.2,0,4.8,0
+                    c0.6,0,0.9,0.3,0.9,0.9c0,4.6,0,9.2,0,13.8C37.1,35.7,37.1,35.8,37.1,36z"/>
+                          <path d="M12.9,36c0-0.9,0-1.8,0-2.7c0-2.3,0-4.6,0-6.9c0-0.7,0.3-0.9,0.9-0.9c1.6,0,3.2,0,4.9,0c0.6,0,0.9,0.3,0.9,0.9
+                    c0,1.7,0,3.4,0,5.1c0,1.4,0,2.8,0,4.2c0,0.3,0,0.4-0.3,0.4c-2,0-4,0-6,0C13.1,36,13,36,12.9,36z"/>
+                        </g>
+                      </svg>
+                      </a></li>
+                  </ul>
+                  <div id="ingredients" class="tabcontent">
+                    <h3>Ingredients</h3>
+                    <ul>
+                      <li>4 (6 ounce) fillets</li>
+                      <li>salmon 2 tablespoons olive oil</li>
+                      <li>2 tablespoons capers</li>
+                      <li>1/8 teaspoon salt </li>
+                      <li>1/8 teaspoon ground black pepper</li>
+                      <li>4 slices lemon</li>
+                    </ul>
+                  </div>
+                  <div id="directions" class="tabcontent">
+                    <h3>Directions</h3>
+                    <p>Preheat a large heavy skillet over medium heat for 3 minutes. <br>
+                      <br>
+                      Coat salmon with olive oil. Place in skillet, and increase heat to high. Cook for 3 minutes. Sprinkle with capers, and salt and pepper. Turn salmon over, and cook for 5 minutes, or until browned. Salmon is done when it flakes easily with a fork.<br>
+                      <br>
+                      Transfer salmon to individual plates, and garnish with lemon slices.</p>
+                  </div>
+                  <div id="time" class="tabcontent">
+                    <h3>Esimated Time</h3>
+                    <ul>
+                      <li>10m preparation time</li>
+                      <li>10m cooking time</li>
+                      <li>20m total</li>
+                    </ul>
+                  </div>
+                  <div id="serving" class="tabcontent">
+                    <h3>Servings</h3>
+                    <p>This specific recipe serves up to four people. Adjust it accordingly to suit the specific needs of your party.</p>
+                  </div>
+                  <div id="nutrition" class="tabcontent">
+                    <h3>Nutritional Value</h3>
+                    <p><i>Based on a 2000 calorie diet</i></p>
+                    <ul>
+                      <li>Calories: 371 kcal 19%</li>
+                      <li>Fat: 25.1 g 39%</li>
+                      <li>Carbs: 1.7g 1%</li>
+                      <li>Protein: 33.7 g 67%</li>
+                      <li>Cholesterol: 99 mg 33%</li>
+                      <li>Sodium: 300 mg 12%</li>
+                    </ul>
+                  </div>
+              
+          
+            </div>
+           
+            </div>
         </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="card border-0 transform-on-hover">
-          <a class="lightbox" href="img/bread-breakfast-close-up-72741.jpg">
-            <img src="img/bread-breakfast-close-up-72741.jpg" alt="Card Image" class="card-img-top">
-          </a>
-          <div class="card-body">
-            <h6><a href="#">Lorem Ipsum</a></h6>
-            <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="card border-0 transform-on-hover">
-          <a class="lightbox" href="img/image3.jpg">
-            <img src="img/bread-breakfast-close-up-793785.jpg" alt="Card Image" class="card-img-top">
-          </a>
-          <div class="card-body">
-            <h6><a href="#">Lorem Ipsum</a></h6>
-            <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-            <div class="heading">
-      <h2>Best Choise for Lunch</h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <div class="card border-0 transform-on-hover">
-            <a class="lightbox" href="img/salmon-fish-healthy-food.jpg">
-              <img src="img/salmon-fish-healthy-food.jpg" alt="Card Image" class="card-img-top">
-            </a>
-            <div class="card-body">
-              <h6><a href="#">Lorem Ipsum</a></h6>
-              <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+      
+
+        <div class="wrapper">
+            <div class="container-recipe">
+              <h1 class="title-recipe text-center">Recipes</h1>
+              <div class="inner-wrapper">
+                <div class="card">
+                  <div class="inner-card">
+                    <div class="img-wrapper">
+                      <img src="https://source.unsplash.com/collection/190727/900x600" alt="">
+                    </div>
+                    <div class="content">
+                      <h1>Card Title</h1>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, dolore!</p>
+                    </div>
+                    <div class="btn-wrapper">
+                      <button class="view-btn" data-src="https://source.unsplash.com/collection/190727/900x600">View</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="inner-card">
+                    <div class="img-wrapper">
+                      <img src="https://source.unsplash.com/collection/190727/901x601" alt="">
+                    </div>
+                    <div class="content">
+                      <h1>Card Title</h1>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, dolore!</p>
+                    </div>
+                    <div class="btn-wrapper">
+                      <button class="view-btn" data-src="https://source.unsplash.com/collection/190727/901x601">View</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="inner-card">
+                    <div class="img-wrapper">
+                      <img src="https://source.unsplash.com/collection/190727/903x603" alt="">
+                    </div>
+                    <div class="content">
+                      <h1>Card Title</h1>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, dolore!</p>
+                    </div>
+                    <div class="btn-wrapper">
+                      <button class="view-btn" data-src="https://source.unsplash.com/collection/190727/903x603">View</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                    <div class="inner-card">
+                      <div class="img-wrapper">
+                        <img src="https://source.unsplash.com/collection/190727/900x600" alt="">
+                      </div>
+                      <div class="content">
+                        <h1>Card Title</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, dolore!</p>
+                      </div>
+                      <div class="btn-wrapper">
+                        <button class="view-btn" data-src="https://source.unsplash.com/collection/190727/900x600">View</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="inner-card">
+                      <div class="img-wrapper">
+                        <img src="https://source.unsplash.com/collection/190727/901x601" alt="">
+                      </div>
+                      <div class="content">
+                        <h1>Card Title</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, dolore!</p>
+                      </div>
+                      <div class="btn-wrapper">
+                        <button class="view-btn" data-src="https://source.unsplash.com/collection/190727/901x601">View</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="inner-card">
+                      <div class="img-wrapper">
+                        <img src="https://source.unsplash.com/collection/190727/903x603" alt="">
+                      </div>
+                      <div class="content">
+                        <h1>Card Title</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, dolore!</p>
+                      </div>
+                      <div class="btn-wrapper">
+                        <button class="view-btn" data-src="https://source.unsplash.com/collection/190727/903x603">View</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card border-0 transform-on-hover">
-            <a class="lightbox" href="img/mango-and-salad.jpg">
-              <img src="img/mango-and-salad.jpg" alt="Card Image" class="card-img-top">
-            </a>
-            <div class="card-body">
-              <h6><a href="#">Lorem Ipsum</a></h6>
-              <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+        
+          <div class="light-box">
+            <div class="box-wrapper">
+              <div class="box">
+                <span class="close-btn">&times</span>
+                <img src="" alt="" class="light-img">
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card border-0 transform-on-hover">
-            <a class="lightbox" href="img/salads-5.jpg">
-              <img src="img/salads-5.jpg" alt="Card Image" class="card-img-top">
-            </a>
-            <div class="card-body">
-              <h6><a href="#">Lorem Ipsum</a></h6>
-              <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
-            </div>
-          </div>
-        </div>
-      </div>	
-  </div>
+
+        
+    
 </section>
-      <hr>
-      <div class="container-contact">
+
+
+
+
+
+      <div class="container-contact" id="contact">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 m-auto">
 						<div class="contact-form">
@@ -254,16 +480,22 @@
       <footer>
         <p>&copy; MLinares-Desing 2015</p>
       </footer>
-    <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="js/vendor/bootstrap.min.js"></script>
+    <!-- /container -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>     
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0]; 
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
