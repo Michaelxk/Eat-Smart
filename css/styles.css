@@ -78,24 +78,26 @@ body {
 .info-presentacion h2 {
   color: #fff;
   padding: 10px;
-  margin: 5px;
   margin-top: 150px;
   font-size: 2.75em;
   font-weight: 700;
   background: rgba(38, 42, 51, 0.4);
+  margin: 0;
 }
 
 .info-presentacion h4 {
   color: #fff;
   padding: 10px;
-  margin: 5px;
   background: rgba(38, 42, 51, 0.4);
+  margin: 0;
 }
 
-.container-headings {
+.headings {
   display: flex;
   width: 100%;
   justify-content: center;
+  background: #fff;
+  padding: 20px;
 }
 
 .animated {
@@ -440,6 +442,13 @@ ul.tab li a:hover {
 
 .tabcontent p {
   margin: 20px;
+}
+
+/*---------RECIPE CARDS -----------*/
+.card:hover {
+  -webkit-box-shadow: 0px 3px 19px -9px rgba(0, 0, 0, 0.81);
+  -moz-box-shadow: 0px 3px 19px -9px rgba(0, 0, 0, 0.81);
+  box-shadow: 0px 3px 19px -9px rgba(0, 0, 0, 0.81);
 }
 
 /*---------CONTACT FORM -----------*/
