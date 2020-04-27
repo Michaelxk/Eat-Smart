@@ -1,42 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
-@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import 'generalStyles.scss';
+@import 'mediaQueries.scss';
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 12px;
-  line-height: 1.6em;
-  background-color: #eff3f6;
-}
-
-@media screen and (max-width: 700px) {
-  .sociales ul {
-    display: flex;
-    justify-content: center;
-  }
-
-  article h4 {
-    margin-top: 30px;
-    text-align: center;
-  }
-}
 /* ==========================================================================
    Michael Linares custom styles
    ========================================================================== */
+
 .sociales {
   background: #262a33;
   height: 35px;
 }
-
 .sociales ul {
   display: flex;
   justify-content: center;
@@ -66,7 +40,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url("../img/home-bg.jpg");
+  background-image: url('../img/home-bg.jpg');
   background-size: cover;
   max-width: 100%;
   width: 100vw;
@@ -88,7 +62,7 @@ body {
 .info-presentacion h2 {
   font-size: 5em;
   font-weight: bold;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
   font-weight: 900;
 }
@@ -113,7 +87,7 @@ body {
 }
 
 .banner {
-  background: url("../img/banner.jpg");
+  background: url('../img/banner.jpg');
   background: cover;
 }
 
@@ -173,7 +147,7 @@ article h4 {
 
 .contact-form h1 {
   font-size: 42px;
-  font-family: "Pacifico", sans-serif;
+  font-family: 'Pacifico', sans-serif;
   margin: 0 0 50px;
   text-align: center;
 }
@@ -224,5 +198,3 @@ article h4 {
 .bs-example {
   margin: 20px;
 }
-
-/*# sourceMappingURL=styles.css.map */
